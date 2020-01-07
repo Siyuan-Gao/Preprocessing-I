@@ -1,1 +1,215 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  font-size: 1.3rem;
+  padding: 2%;
+  text-decoration: none;
+  color: slategray;
+}
+#main-heading {
+  padding: 2% 2% 2% 8%;
+  background-color: #D0D3D5;
+}
+img {
+  height: 35%;
+  width: 25%;
+}
+h1 {
+  font-size: 3rem;
+  margin: 2% 2% 1% 0% ;
+  line-height: 1.2;
+  color: #353739;
+}
+h3 {
+  font-size: 1.7rem;
+  color: #353739;
+}
+p {
+  font-size: 1.3rem;
+  margin: 2% 0;
+  color: #353739;
+}
+hr {
+  color: #353739;
+  width: 90%;
+  margin: 2% 0 0 0%;
+}
+.heading-button {
+  background-color: #6D7071;
+  color: white;
+  font-size: 2rem;
+  padding: 1%;
+  width: 22%;
+}
+#main-content {
+  display: flex;
+  justify-content: space-between;
+}
+.content-left {
+  width: 45%;
+  margin: 2% 0 2% 4%;
+}
+.content-right {
+  width: 45%;
+  margin: 2% 0 2% 4%;
+}
+h2 {
+  font-size: 1.7rem;
+  font-weight: 800;
+  margin-bottom: 1%;
+}
+.main-table {
+  margin: 0% 0 2% 5%;
+  font-size: 1.3rem;
+  width: 100%;
+}
+th {
+  width: 23%;
+  padding: 3%;
+}
+tr {
+  border-top: 1px solid #CACCCD;
+  border-bottom: 1px solid #CACCCD;
+  width: 90%;
+}
+.table-1 {
+  font-weight: 800;
+}
