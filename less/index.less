@@ -63,7 +63,7 @@ html, body {
 nav {
 	display: flex;
 	justify-content: space-around;
-	width: 95%;
+	width: 90%;
 	}
 
 	a {
@@ -77,7 +77,7 @@ nav {
 	#main-heading{
 		padding: 2% 2% 2% 8%;
 		background-color: #D0D3D5;
-		width: 85%;
+		width: 80%;
 		margin-left: 5%;
 	}
 
@@ -129,7 +129,7 @@ nav {
 
 			.content-left {
 				width: 42%;
-				margin: 2% 0 2% 6%;
+				margin: 2% 0 2% 7%;
 			}
 
 			.content-right{
@@ -137,8 +137,15 @@ nav {
 				margin: 2% 0 2% 6%;
 			}
 
-			#right-p p {
-				border: 1px solid black;
+			h3 {
+				margin-bottom: 1%;
+			}
+
+			#right-p p{
+				border: 1px solid @main-textColor;
+				width: 60%;
+				padding: 2%;
+				margin: 0;
 			}
 
 
@@ -150,22 +157,22 @@ nav {
 
 			#main-table {
 				display: block;
-				margin: 0% 0 2% 4%;
+				margin: 0% 0 2% 10%;
 				font-size: 1.3rem;
-				width: 60%;
 				text-align: left;
+				width: 80%;
 			}
 
-			// table:nth-child(even){
-			// 		background: gray;
-			// }
-		
+	
+			table {
+				width: 94%;
+			}
 
 			th {
 				padding: 5%;
 				border-top: 1px solid #B7BCC0;
 				border-bottom: 1px solid #B7BCC0;
-				
+			}
 
 
 			#table-1 {
@@ -181,5 +188,5 @@ nav {
 				background-color: #8D8E8F;
 				height: 10%;
 				width: 75%;
-				margin-left: 6%;
+				margin-left: 10%;
 			}
